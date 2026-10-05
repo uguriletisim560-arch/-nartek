@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uğur İletişim - Damga Kartı</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="card">
+<div class="logo">UĞUR İLETİŞİM</div>
+<h1>Damga Kartınız</h1>
+<p class="description">Telefon numaranızı girerek damga kartınızı görüntüleyin.</p>
+<form id="phoneForm">
+<label for="phone">Telefon Numaranız</label>
+<input type="tel" id="phone" placeholder="05XX XXX XX XX" maxlength="14" inputmode="tel" autocomplete="tel" required>
+<button type="submit">Kartımı Aç</button>
+</form>
+<div id="message" class="message"></div>
+<div id="customerCard" class="hidden">
+<div class="customer-phone" id="customerPhone"></div>
+<div id="stamps" class="stamps"></div>
+<div id="count" class="stamp-count">0 / 10 Damga</div>
+<button id="stampButton" class="stamp-button">Damga Kazan</button>
+<div id="pinBox" class="pin-box hidden">
+<h2>Mağaza Onayı</h2>
+<p>Damga eklemek için mağazadan verilen 4 haneli şifreyi girin.</p>
+<input type="password" id="pin" maxlength="4" inputmode="numeric" placeholder="••••" autocomplete="off">
+<button id="confirmButton">Onayla</button>
+<button id="cancelButton" class="cancel-button">Vazgeç</button>
+</div>
+<div id="result" class="message"></div>
+</div>
+</div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
