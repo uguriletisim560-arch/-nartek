@@ -1,4 +1,4 @@
 window.DAMGA_CONFIG = {
-    SUPABASE_URL: "BURAYA_SUPABASE_URL",
-    SUPABASE_ANON_KEY: "BURAYA_SUPABASE_ANON_KEY"
+    SUPABASE_URL: "https://jpryxcmfvsgsdaagdume.supabase.co",
+    SUPABASE_ANON_KEY: "sb_publishable_g-ffv3dx26kr7aSUPFLbpQ_m9k3Zy89"
 };
